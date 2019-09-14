@@ -1,0 +1,163 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600|Raleway:300,400,500');
+
+.background-descriere {
+    background: url(../images/bg-deschis.png) 50% 100% repeat-x, url(../images/bg-deschis-top.png) 50% repeat;
+    margin-top:-20px;
+}
+
+.background-gradient {
+    background: url(../images/bg-gradient.png) repeat-x, url(../images/bg-inchis.png) repeat, url(../images/triunghi.png) 0% 0% repeat;
+}
+
+body {
+    background: url(../images/bg-inchis.png) 50% 50%;
+}
+
+.icon-block {
+  padding: 0 15px;
+  margin-bottom:5vh;
+  margin-top:-5vh;
+}
+.icon-block .material-icons {
+	font-size: 5vh;
+}
+.top-banner {
+    background:url('../images/background.png') 50% 50%;
+    background-size: cover;
+    font-family: Raleway;
+}
+.transparent-grey {
+    background-color: rgba(160, 160, 160, 0.4);
+}
+.transparent-grey a {
+
+}
+.transparent-grey a img {
+    content: url('../images/LogoLSAC - alb.png')
+}
+.dark-text {
+    color: rgba(52,52,52,0.8);
+}
+
+.dark-green-text {
+    color: #314f51;
+}
+
+.white-black-text {
+    background-color: rgba(52,52,52,0.8);
+    color: #FFFFFF !important;
+}
+.white-black-text a{
+    color: #FFFFFF !important;
+}
+.white-black-text a>img {
+    content: url('../images/LogoLSAC - alb.png')
+}
+
+.logo-lsac-top {
+    height: 35px;
+    margin-top:2vh;
+    width:auto;
+}
+
+.raleway-text {
+    font-weight: 100;
+    text-align: justify;
+    font-family: 'Raleway', sans-serif;
+}
+
+.open-sans-text {
+    font-weight: 100;
+    text-align: justify;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.open-sans-text b {
+    font-weight: 900;
+    text-shadow: 0px 0px 10px black;
+}
+
+.raleway-text b {
+    font-weight: 900;
+    text-shadow: 0px 0px 10px black;
+}
+
+.text-normal {
+    font-size: 16px;
+}
+
+.text-shadow {
+    text-shadow: 0 8px 10px rgba(0, 0, 0, 0.14), 0 3px 14px rgba(0, 0, 0, 0.12), 0 5px 5px rgba(0, 0, 0, 0.3);
+}
+
+.probe {
+    background-color: rgba(175, 188, 182, 0.22);
+}
+
+.probe:hover {
+    background-color: rgba(175, 188, 182, 0.22);
+}
+
+.full-page {
+    min-height: 100vh;
+}
+
+.center-justified {
+    text-align: justify;
+    -moz-text-align-last: center;
+    text-align-last: center;
+}
+
+.title {
+    text-align:center !important;
+    margin-top: 50px;
+}
+
+.side-nav {
+    color:white !important;
+    padding-top:20px;
+}
+.side-nav a{
+    color:white !important;
+    margin-left:20px;
+}
+
+
+#nav {
+    transition:all .2s;
+}
+
+.footer {
+    position:relative;
+    padding:10px;
+    color:white;
+}
+
+.footer::before {
+  content: "";
+  position:absolute;
+  top:0;
+  left:0;
+  width: 100%;
+  height: 100%;
+  opacity: .4;
+  z-index: -1;
+  background: black;
+}
+
+.img-banner {
+    height:7rem;
+    margin-bottom:10px;
+}
+
+.img-logo {
+    width:100%;
+}
