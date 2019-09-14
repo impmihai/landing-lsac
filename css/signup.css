@@ -1,0 +1,44 @@
+#signup { 
+    height: auto;
+}
+
+.signup-wrapper {
+    height: 100%;
+}
+
+.signup-wrapper .row {
+    height: 100%;
+}
+
+
+.signup-text {
+    text-align: left;
+    background-color: rgba(255, 255, 255, 0.4);
+    height: 100%;
+    padding: 3% 0!important;
+}
+
+.signup-inner-wrapper {
+    margin: 0 5% 0 5%;
+}
+
+.signup-text-button {
+    margin-top: 20px;
+}
+
+.signup-text-button:first-of-type {
+    margin-top: 40px;
+}
+
+.signup-title {
+    font-weight: bolder;
+}
+
+.signup-image {
+    min-height: 100%!important;
+}
+
+.signup-image > img {
+    max-width: 100%;
+    max-height: 100%;
+}
