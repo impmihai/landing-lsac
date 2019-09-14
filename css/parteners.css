@@ -1,0 +1,43 @@
+#parteners { 
+    height: 60%;
+}
+
+.parteners-wrapper {
+    height: 100%;
+}
+
+.parteners-wrapper .row {
+    height: 100%;
+}
+
+
+.parteners-text {
+    text-align: left;
+    background-color: rgba(255, 255, 255, 0.4);
+    height: 100%;
+}
+
+.parteners-inner-wrapper {
+    margin: 0 5% 0 5%;
+}
+
+.parteners-text-button {
+    margin-top: 20px;
+}
+
+.parteners-text-button:first-of-type {
+    margin-top: 40px;
+}
+
+.parteners-title {
+    font-weight: bolder;
+}
+
+.parteners-image {
+    min-height: 100%!important;
+}
+
+.parteners-image > img {
+    max-width: 100%;
+    max-height: 100%;
+}
