@@ -140,7 +140,7 @@ body {
 .footer {
     position:relative;
     padding:10px;
-    color:white;
+    background-color: black;
 }
 
 .footer::before {
