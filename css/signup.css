@@ -1,21 +1,27 @@
-#signup { 
-    height: auto;
+@media screen and (min-width: 601px) {
+    .signup-wrapper {
+        height: 100%;
+    }
+    
+    .signup-wrapper .row {
+        height: 100%;
+    }
+    
+    .signup-text {
+        background-color: rgba(255, 255, 255, 0.4);
+        padding-bottom: 2em!important;
+    }
 }
 
-.signup-wrapper {
-    height: 100%;
+@media screen and (max-width: 601px) {
+    .signup-image {
+        margin-top: 10%;
+    }
 }
-
-.signup-wrapper .row {
-    height: 100%;
-}
-
 
 .signup-text {
     text-align: left;
-    background-color: rgba(255, 255, 255, 0.4);
     height: 100%;
-    padding: 3% 0!important;
 }
 
 .signup-inner-wrapper {

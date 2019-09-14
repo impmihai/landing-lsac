@@ -1,19 +1,29 @@
-#parteners { 
-    height: 60%;
+@media screen and (min-width: 601px) {
+    #parteners { 
+        height: 60%;
+    }
+
+    .parteners-wrapper {
+        height: 100%;
+    }
+    
+    .parteners-wrapper .row {
+        height: 100%;
+    }
+    
+    .parteners-text {
+        background-color: rgba(255, 255, 255, 0.4);
+    }
 }
 
-.parteners-wrapper {
-    height: 100%;
+@media screen and (max-width: 601px) {
+    .parteners-image {
+        margin-top: 10%;
+    }
 }
-
-.parteners-wrapper .row {
-    height: 100%;
-}
-
 
 .parteners-text {
     text-align: left;
-    background-color: rgba(255, 255, 255, 0.4);
     height: 100%;
 }
 
