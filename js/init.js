@@ -6,6 +6,8 @@
 
     $('#presentation').load('pages/presentation.html')
     $('#parteners').load('pages/parteners.html')
+    $('#signup').load('pages/signup.html')
+    $('#contact').load('pages/contact.html')
 
     $(window).on('scroll', function (event) {
         var scroll = $(this).scrollTop()
