@@ -162,3 +162,7 @@ body {
 .img-logo {
     width:100%;
 }
+
+.limited-width {
+    margin: 0 4%!important;
+}
