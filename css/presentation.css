@@ -1,0 +1,34 @@
+#presentation { 
+    height: 100%;
+}
+
+.presentation-wrapper {
+    height: 100%;
+}
+
+.presentation-wrapper .row {
+    height: 100%;
+}
+
+
+.presentation-text {
+    text-align: left;
+    background-color: rgba(255, 255, 255, 0.4);
+    height: 100%;
+}
+
+.presentation-inner-wrapper {
+    margin: 0 5% 0 5%;
+}
+
+.presentation-text-button {
+    margin-top: 20px;
+}
+
+.presentation-text-button:first-of-type {
+    margin-top: 40px;
+}
+
+.presentation-title {
+    font-weight: bolder;
+}

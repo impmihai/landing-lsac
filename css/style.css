@@ -19,6 +19,7 @@
 
 body {
     background: url(../images/bg-inchis.png) 50% 50%;
+    height: 100vh;
 }
 
 .icon-block {
