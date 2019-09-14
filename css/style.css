@@ -18,7 +18,7 @@
 }
 
 body {
-    background: url(../images/bg-inchis.png) 50% 50%;
+    /* background: url(../images/bg-inchis.png) 50% 50%; */
     height: 100vh;
 }
 
@@ -31,7 +31,8 @@ body {
 	font-size: 5vh;
 }
 .top-banner {
-    background:url('../images/background.png') 50% 50%;
+    /* background:url('../images/background.png') 50% 50%; */
+    background-color: rgb(201, 201, 201);
     background-size: cover;
     font-family: Raleway;
 }
