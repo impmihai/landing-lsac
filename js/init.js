@@ -5,6 +5,7 @@
     $('.collapsible').collapsible();
 
     $('#inscriere').load('pages/inscriere.html')
+    $('#presentation').load('pages/presentation.html')
     $('#prezentare').load('pages/prezentare.html')
     $('#probe').load('pages/probe.html')
     $('#faq').load('pages/faq.html')
